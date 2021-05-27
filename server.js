@@ -50,7 +50,7 @@ app.get('/', function(req, res){
 
 //open add page//
 app.get('/add', function(req, res){
-    res.render('addsportPage');
+    res.render('addpage');
 })
 
 app.get('/addart', function(req, res){
