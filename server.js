@@ -49,7 +49,7 @@ app.get('/', function(req, res){
     
 
 //open add page//
-app.get('/addsport', function(req, res){
+app.get('/add', function(req, res){
     res.render('addsportPage');
 })
 
