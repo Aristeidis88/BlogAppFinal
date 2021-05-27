@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('head')  %> 
+<body>
+    <%- include("layouts/navbar")  %> 
+
+
+
+<% if(arts.length === 0){ %>
+    <div class="text-center">
+      <h1 class="display-2">404 - Not found</h1>
+
+    </div>
+
+   
+    
+    <% }else { %>
+      <div class="container">
+
+        <style>
+          .bg{
+            height: 400px;
+            background-image: url('<%= arts.pic %>');
+            width: 1200px;
+              background-repeat: no-repeat;
+          }
+        </style>
+      <h1 class="display-3">
+        <%= arts.title  %> 
+      </h1>
+        <div class="bg">
+          
+        </div>
+     
+      
+      <p><%= arts.date  %> </p>
+      <p class="lead">
+        <%= arts.desc  %> 
+      </p>
+    </div>
+      
+      <% } %>
+
+
+    </body>
+    <br>
+    <%- include("layouts/footer")  %> 
+    </html>

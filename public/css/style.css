@@ -1,0 +1,75 @@
+#sportbg{background-image: url(sports.jpg);
+         background-repeat:repeat-x;
+         background-color: rgb(24, 138, 24);
+         padding-bottom: 10px;}
+
+
+#artsbg{background-image: url(arts.jpg);
+    background-repeat:repeat-x;
+    background-color: rgb(97, 23, 45);
+    padding-bottom: 10px;}
+
+#politicsbg{background-image: url(politics.jpg);
+    background-repeat:repeat-x;
+    background-color: rgb(48, 48, 167);
+    padding-bottom: 10px;}
+
+#funnysbg{background-image: url(funnys.jpg);
+    background-repeat:repeat-x;
+    background-color: rgb(209, 211, 197);
+    padding-bottom: 10px;}
+
+
+
+#sportsheadtitle{background-color: rgba(241, 234, 234, 0.726);
+        width: 215px;
+        font-weight: 350;}
+
+#artsheadtitle{background-color: rgba(51, 1, 1, 0.726);
+           color: white;
+           width: 150px;
+           font-weight: 350;}
+
+#politicsheadtitle{background-color: rgba(49, 44, 44, 0.726);
+            color: white;
+            width: 220px;
+            font-weight: 350;}
+
+#funnysheadtitle{background-color: rgba(207, 188, 188, 0.726);
+    color: white;
+                font-weight: 350;
+                width: 210px;}
+
+img{height: 200px;}
+
+h6{position: absolute;
+   bottom: 100px;}
+
+.card{height: 470px;}
+
+#viewbtn{width: 50px;
+    border-style: solid;
+    border-color: rgb(137, 31, 199);
+    position: absolute;
+   bottom: 60px;}
+
+
+#editbtn{width: 50px;
+         border-style: solid;
+         border-color: black;
+         margin-left: 55px ;
+         position: absolute;
+         bottom: 60px;}
+
+
+#deletebtn{width: 105px;
+         border-style: solid;
+         border-color: black;
+         margin-top: 5px;
+         position: absolute;
+         bottom: 20px;}
+
+.sportspic{width: 300px;}
+
+#addbtn{margin-right: 120px;}
+

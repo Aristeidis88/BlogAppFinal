@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <%- include("head")  %> 
+</head>
+<body>
+
+    <%- include("layouts/navbar")  %>
+
+
+    
+
+    <div style="margin: auto; width: 80%; margin-top: 40px;">
+        <h4>Edit POST</h4>
+        <form action="/postEditfunny" method="post">
+            <input type="text" name="title"  value="<%= funnys.title  %>"  class="form-control" placeholder="Enter title" id="">
+            <br>
+            <input type="text" name="author" value="<%= funnys.author %>" class="form-control" placeholder="Enter author">
+            <br>
+            <input type="text" name="pic" value="<%= funnys.pic  %>"  class="form-control" placeholder="Enter URL">
+            <br>
+            <input type="text" name="key" style="visibility: hidden;" value="<%= funnys.key  %> " id="">
+            <textarea name="desc"   placeholder="<%= funnys.desc  %>" class="form-control" id="" cols="30" rows="10">
+                <%= funnys.desc  %>
+            
+            </textarea>
+            <br>
+            <button type="submit" class="btn btn-primary btn-lg">Edit</button>
+        </form>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('head')  %> 
+<body>
+    <%- include("layouts/navbar")  %> 
+
+
+    <% if(sports.length === 0){ %>
+      <div class="text-center">
+        <h1 class="display-2">404 - Not found</h1>
+
+      </div>
+
+     
+      
+      <% }else { %>
+        <div class="container">
+
+          <style>
+            .bg{
+              height: 500px;
+              background-image: url('<%= sports.pic %>');
+              width: 1200px;
+              background-repeat: no-repeat;
+            }
+          </style>
+        <h1 class="display-3">
+          <%= sports.title  %> 
+        </h1>
+          <div class="bg">
+            
+          </div>
+       
+        
+        <p><%= sports.date  %> </p>
+        <p class="lead">
+          <%= sports.desc  %> 
+        </p>
+      </div>
+        
+        <% } %> 
+
+
+
+
+
+
+        
+
+
+ 
+
+    
+
+
+  
+    
+</body>
+<br>
+<%- include("layouts/footer")  %> 
+</html>

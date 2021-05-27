@@ -1,0 +1,19 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "BlogApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install"
+  },
+  "author": "Aris",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "node": "^15.14.0"
+  }
+}
