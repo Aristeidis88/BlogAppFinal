@@ -49,8 +49,8 @@ app.get('/', function(req, res){
     
 
 //open add page//
-app.get('/add', function(req, res){
-    res.render('addPage');
+app.get('/addsport', function(req, res){
+    res.render('addsportPage');
 })
 
 app.get('/addart', function(req, res){
